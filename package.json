@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "description": "This a Node and Typescript Monorepo.",
   "workspaces": [
-    "apps/*"
+    "apps/*",
+    "packages/*"
   ],
   "scripts": {
     "dev": "concurrently \"npm run dev:api\" \"npm run dev:site\"",
